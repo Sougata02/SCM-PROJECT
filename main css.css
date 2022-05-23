@@ -1,0 +1,339 @@
+*{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: inline;
+    background-color: black;
+    color: white;
+}
+header{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: black;
+}
+#content-pic{
+    height: 450px;
+    width: 750px;
+    border: 2px solid white;
+  }
+  #content-pic img{
+    height: 100%;
+    width: 700px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  #buttons{
+      margin-top: 30px;
+      margin-left: 600px;
+      margin-bottom: 30px;
+      border-top:2px solid white ;
+  }
+  #button input{
+      height: 30px;
+      width: 60px;
+  }
+  #logo{
+      border: 1px solid black;
+      background-color: honeydew;
+  }
+#btn{
+    background-color: black;
+}
+#img{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+#topics{
+    display: flex;
+}
+
+#lower_part{
+    display: flex;
+    background-color: gray;
+    margin: 2px;
+    border: 1px solid black;
+}
+.date{
+    margin: 10px 40px 10px 40px;
+    font-size: 20px;
+}
+#ex{
+    width: 100%;
+    height: 200px;
+}
+#ii{
+    border: 2px solid black;
+    background-color: gray;
+}
+#ik{
+    text-align: center;
+}
+.links{
+    border-right: 2px solid white;
+    margin: 1px;
+    padding: 2px;
+}
+.link{
+    margin: 1px;
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+}
+.down{
+    text-decoration: none;
+    color: black;
+    width: 80px;
+    height: 30px;
+}
+.foot{
+    color: black;
+}
+.down:hover{
+    border: 1px solid transparent;
+    border-radius: 27px;
+    color: white;
+    box-shadow: 0 0 0 .5px black;
+}
+.main{
+    display: inline;
+    background-color: black;
+}
+header{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: black;
+}
+#content-pic{
+    height: 450px;
+    width: 750px;
+    border: 2px solid black;
+  }
+  #content-pic img{
+    height: 100%;
+    width: 700px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  #buttons{
+      margin-top: 30px;
+      margin-left: 600px;
+      margin-bottom: 30px;
+      border-top:2px solid black ;
+  }
+  #button input{
+      height: 30px;
+      width: 60px;
+  }
+  #logo{
+      border: 1px solid black;
+      background-color: honeydew;
+  }
+#btn{
+    background-color: black;
+}
+#img{
+    background-color: black;
+}
+#topics{
+    display: flex;
+}
+#logIn{
+    background-color: white;
+    color: black;
+    border-radius: 27px;
+    margin-right: 40px;
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    transition: .45s;
+    border: none;
+}
+#create{
+    background-color: white;
+    color: black;
+    border-radius: 27px;
+    border: none;
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    transition: .45s;
+    border: none;
+}
+#log{
+    margin: 0%;
+    margin-bottom: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    border: 2px solid white;
+    outline: none;
+}
+#logIn:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 0 1 white;
+}
+#create:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 0 1 white;
+}
+.enter{
+    font-size: 20px;
+    font: bolder;
+    font-weight: 500;
+}
+.entry{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid white;
+    outline: none;
+    height: 30px;
+    text-align: center;
+}
+.op{
+    background-color: black;
+}
+#share{
+    background-color: black;
+    color: white;
+    border-radius: 27px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    cursor: pointer;
+    transition: .45s;
+    text-align: center;
+}
+#share:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.acc{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 90vh;
+}
+.dataOfUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 500px;
+    width: 900px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.style{
+    display: flex;
+    background-color: black;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+}
+.forLog{
+    background-color: black;
+    height: 300px;
+    width: 45%;
+    color: white;
+    border-radius: 10px;
+}
+.forAcc{
+    
+    height: 400px;
+    width: 45%;
+    border: 2px solid black;
+    transform: translateY(-50px);
+    margin-left: 15px;
+    background-image: linear-gradient(grey,white);
+    border-radius: 10px;
+}
+.forLog h4{
+    color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.forLog button{
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 100px;
+    border-radius: 27px;
+    border: none;
+    transition: .45s;
+    cursor: pointer;
+    font-weight: 500;
+}
+.forLog button:hover{
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    transform: translateY(-5px);
+}
+.forAcc input{
+    display: block;
+    margin: 30px 0 5px 60px;
+    outline: none;
+    border: 2px solid black;
+    height: 35px;
+    transition: .65s;
+    text-align: center;
+}
+.forAcc input:hover{
+    border: 3px solid black;
+    z-index: 10px;
+}
+.forAcc button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 90px;
+    border-radius: 27px;
+    border: none;
+    transition: .45s;
+    cursor: pointer;
+    font-weight: 500;
+}
+.forAcc button:hover{
+    background-color: white;
+    color: black;
+    border: 4px solid black;
+    transform: translateY(-5px);
+}
+#data_head{
+    background-color: black;
+    }
+    #rich{
+     font-size: 20px;
+     color: white;
+    }
+    #about{
+        display: flex;
+        background-color: black;
+        color: white;
+    }
+    #pic{
+        border: 2px solid black;
+        align-content: center;
+        justify-content: center;
+    }
